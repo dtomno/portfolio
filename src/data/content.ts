@@ -123,9 +123,9 @@ export const PROJECTS: Project[] = [
     index: '01',
     title: 'Kikobas',
     year: '2026 - Present',
-    summary: 'A full-featured digital platform for Kenyan savings groups (chamas), expanding to East Africa.',
+    summary: 'A full-featured digital platform for Kenyan savings groups (chamas).',
     description:
-      "A full-featured digital platform for Kenyan savings groups (chamas), expanding to East Africa. Replaces WhatsApp threads and Excel sheets with transparent, auditable tools for contributions, loans, fines, merry-go-round, investments, dividends, meetings, a welfare fund, documents, bank/mobile-money statement reconciliation, and an AI-powered Chama Advisor.",
+      "A full-featured digital platform for Kenyan savings groups (chamas). Replaces WhatsApp threads and Excel sheets with transparent, auditable tools for contributions, loans, fines, merry-go-round, investments, dividends, meetings, a welfare fund, documents, bank/mobile-money statement reconciliation, and an AI-powered Chama Advisor.",
     tags: ['Next.js', 'TypeScript', 'React Native', 'Docker'],
     images: [kikobas1, kikobas2, kikobas3, kikobas4],
     status: 'In Testing',      

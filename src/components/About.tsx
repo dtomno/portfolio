@@ -67,7 +67,7 @@ export function About() {
             <img
               src={portrait}
               alt="Dennis Tomno"
-              className="h-full w-full object-cover grayscale transition duration-700 hover:grayscale-0"
+              className="h-full w-full object-cover transition duration-700"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-signal/25 via-transparent to-transparent mix-blend-color" />
           </div>
