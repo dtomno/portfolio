@@ -28,12 +28,14 @@ import lec1 from '../assets/lec-1.jpg'
 import lec2 from '../assets/lec-2.jpg'
 import lec3 from '../assets/lec-3.jpg'
 import lec4 from '../assets/lec-4.jpg'
-import lendstream1 from '../assets/lendstream1.png'
-import lendstream2 from '../assets/lendstream2.png'
 import kikobas1 from '../assets/kikobas1.png'
 import kikobas2 from '../assets/kikobas2.png'
 import kikobas3 from '../assets/kikobas3.png'
 import kikobas4 from '../assets/kikobas4.png'
+import kikobas5 from '../assets/kikobas5.png'
+import kikobas6 from '../assets/kikobas6.png'
+import kikobas7 from '../assets/kikobas7.png'
+import kikobas8 from '../assets/kikobas8.png'
 
 export const PROFILE = {
   name: 'Dennis Tomno',
@@ -94,7 +96,7 @@ export const TICKER = [
   'Spring Boot',
   'Flutter',
   'Dart',
-  'Angular',
+  // 'Angular',
   'Kafka',
   'Docker',
   // 'Offline-First',
@@ -127,11 +129,12 @@ export const PROJECTS: Project[] = [
     description:
       "A full-featured digital platform for Kenyan savings groups (chamas). Replaces WhatsApp threads and Excel sheets with transparent, auditable tools for contributions, loans, fines, merry-go-round, investments, dividends, meetings, a welfare fund, documents, bank/mobile-money statement reconciliation, and an AI-powered Chama Advisor.",
     tags: ['Next.js', 'TypeScript', 'React Native', 'Docker'],
-    images: [kikobas1, kikobas2, kikobas3, kikobas4],
+    images: [kikobas1, kikobas2, kikobas3, kikobas4, kikobas5, kikobas6, kikobas7, kikobas8],
     status: 'In Testing',      
     links: [
       // { label: 'GitHub', href: 'https://github.com/dtomno/kikobas' },
-      { label: 'Live demo', href: 'https://staging.kikobas.com' },
+      { label: 'Live Web demo', href: 'https://staging.kikobas.com' },
+      { label: 'Live Mobile demo', href: 'https://play.google.com/apps/internaltest/4701665182068619191' }
     ],
   },  
   {
@@ -170,24 +173,24 @@ export const PROJECTS: Project[] = [
     images: [edm],
     links: [],
   },
-  {
-    id: 'lendstream',
-    index: '05',
-    title: 'LendStream',
-    year: '2024',
-    summary: 'An event-driven loan-processing prototype that automates the entire application workflow.',
-    description:
-      "Built interconnected modules that evaluate loan requests, manage approvals, and process payments while communicating over an event bus. Designed for reliability and transparency, with real-time monitoring that tracks each loan from submission to funding, handling concurrent requests without sacrificing data integrity.",
-    tags: ['Node.js', 'React', 'Docker', 'Apache Kafka'],
-    images: [lendstream1, lendstream2],
-    links: [
-      { label: 'GitHub', href: 'https://github.com/dtomno/lendstream' },
-      { label: 'Live demo', href: 'https://lendstream.vercel.app' },
-    ],
-  },  
+  // {
+  //   id: 'lendstream',
+  //   index: '05',
+  //   title: 'LendStream',
+  //   year: '2024',
+  //   summary: 'An event-driven loan-processing prototype that automates the entire application workflow.',
+  //   description:
+  //     "Built interconnected modules that evaluate loan requests, manage approvals, and process payments while communicating over an event bus. Designed for reliability and transparency, with real-time monitoring that tracks each loan from submission to funding, handling concurrent requests without sacrificing data integrity.",
+  //   tags: ['Node.js', 'React', 'Docker', 'Apache Kafka'],
+  //   images: [lendstream1, lendstream2],
+  //   links: [
+  //     { label: 'GitHub', href: 'https://github.com/dtomno/lendstream' },
+  //     { label: 'Live demo', href: 'https://lendstream.vercel.app' },
+  //   ],
+  // },  
   {
     id: 'intune',
-    index: '06',
+    index: '05',
     title: 'Intune — Guitar Utility App',
     year: '2025 - Present',
     summary: 'A cross-platform tuner, chord library, and metronome for musicians, built with Flutter.',
@@ -203,7 +206,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'lec-portal',
-    index: '07',
+    index: '06',
     title: 'LEC Customer Portal Integrations',
     year: '2023 - Present',
     summary: 'Key feature work for Liberia Electricity Corporation’s customer portal.',
